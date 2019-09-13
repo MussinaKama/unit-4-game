@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Game</title>
+    <style rel="stylesheet" type="text/css" href="assets/css/style.css"></style>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <h1>Crystals Collector!</h1>
+    <p>You will be given a random number at the start of the game.</p>
+
+    <p>There are for crystals below. By clicking on a crystal you will add a specific amounts of points to your total
+        score.</p>
+
+    <p>You win the game by matching your total score to random number, you lose the game if your total score goes aboes
+        above the random number.</p>
+
+    <p>The value of each crystal is hidden from you until you click on it.</p>
+
+    <p>Each time when the game starts, the game will change the values of each crystal.</p>
+
+    <h2><span id="target-score"></span></h2>
+
+    <div id="crystal-container">
+        <div class="crystals">
+            <img src="assets/images/aqua-crystal.png" alt="aqua-crystal" class="crystal-image" id="crystal1">
+        </div>
+        <div class="crystals">
+            <img src="assets/images/purple-crystal.png" alt="purple-crystal" class="crystal-image" id="crystal2">
+        </div>
+        <div class="crystals">
+            <img src="assets/images/rubin-crystal.png" alt="rubin-crystal" class="crystal-image" id="crystal3">
+        </div>
+        <div class="crystals">
+            <img src="assets/images/yellow-crystal.png" alt="yellow-crystal" class="crystal-image" id="crystal4">
+        </div>
+
+    </div>
+
+    <h3><span id="user-score">Your total score is:</span></h3>s
+
+    <h4><span id="wins">Wins:</span></h4>
+
+    <h5><span id="losses">Losses:</span></h5>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</body>
+
+</html>
